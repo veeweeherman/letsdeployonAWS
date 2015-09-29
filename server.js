@@ -23,13 +23,7 @@ app.use(bodyParser.urlencoded({extended:false}));
 
 app.use(express.static(path.normalize(__dirname + '/.zip')));
 
-// app.get('/', function(req, res) {
-//     res.sendFile(path.join(__dirname + '/.zip/index.html'));
-// });
 
-// app.get('/', function(req, res){
-// 	res.redirect('.zip/index.html');
-// });
 
 //========================================================//
 //   Calling the server                                   //
